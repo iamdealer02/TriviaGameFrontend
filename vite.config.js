@@ -6,11 +6,11 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  resolve:{
-    alias:{
+  resolve: {
+    alias: {
       src: '/src',
       views: '/src/views',
       components: '/src/components',
-    }
-  }
-})
+    },
+  },
+});
