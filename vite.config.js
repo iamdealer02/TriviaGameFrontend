@@ -1,5 +1,7 @@
 // vite.config.js
-import path from 'path';  // Add this line at the top
+/* eslint-disable no-undef */
+
+import path from 'path'; // Add this line at the top
 import { defineConfig } from 'vite';
 
 export default defineConfig({
