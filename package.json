@@ -10,7 +10,8 @@
     "preview": "vite preview",
     "format": "prettier --write . ",
     "prepare": "husky",
-    "test": "echo \"Running tests...\" && exit 0"
+    "test": "echo \"Running tests...\" && exit 0",
+      "lint:report": "eslint . -f json -o eslint_report.json"
   },
   "dependencies": {
     "react": "^18.3.1",
